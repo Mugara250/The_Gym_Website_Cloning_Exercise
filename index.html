@@ -1,0 +1,989 @@
+<!doctype html>
+<html lang="en" class="h-full">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LUGX Gaming</title>
+  <link rel="stylesheet" href="output.css" />
+  <script src="https://kit.fontawesome.com/6f271b27bc.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-white px-2 pt-2 pb-0 font-poppins">
+  <main class="w-full mx-auto overflow-hidden">
+    <div class="banner bg-[url('./images/banner-bg.jpg')] w-full pt-10 px-20 pb-56 overflow-auto rounded-b-[10rem]">
+      <div class="navigation flex justify-between items-center">
+        <div class="logo">
+          <img src="./images/logo.png" alt="website logo" />
+        </div>
+        <nav>
+          <ul class="flex gap-x-6 items-baseline text-sm text-slate-200">
+            <a href="#" class="bg-blue-500 py-[0.60rem] px-5 rounded-3xl">
+              <li>Home</li>
+            </a>
+            <a href="#" class="hover:bg-blue-400/20 bg-transparent py-2 px-4 h-15 rounded-3xl">
+              <li>Our Shop</li>
+            </a>
+            <a href="#" class="hover:bg-blue-400/20 bg-transparent py-2 px-4 h-15 rounded-3xl">
+              <li>Product details</li>
+            </a>
+            <a href="#" class="hover:bg-blue-400/20 bg-transparent py-2 px-4 h-15 rounded-3xl">
+              <li>Contact Us</li>
+            </a>
+            <a href="#">
+              <button type="button" class="bg-red-400 px-5 py-2 rounded-3xl font-semibold">
+                SIGN IN
+              </button>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <div class="banner-part2 flex justify-between gap-y-32 mt-32">
+        <div class="welcome basis-1/2 text-slate-100 flex flex-col items-start w-1/2 mt-5">
+          <h3 class="text-xl font-semibold">WELCOME TO LUGX</h3>
+          <h1 class="text-5xl font-bold mt-6">BEST GAMING SITE EVER!</h1>
+          <!-- <div class="dec-caption w-2/3 mx-auto mb-14 pl-5">
+            <img src="./images/caption-dec.png" alt="caption dec image" />
+          </div> -->
+          <p class="text-left text-sm mt-10">
+            LUGX Gaming is free Bootstrap 5 HTML CSS website template for your
+            gaming websites. You can download and use this layout for commercial
+            purposes. Please tell your friends about TemplateMo.
+          </p>
+          <div class="search-bar w-3/4 flex items-baseline relative">
+            <input type="text" name="game" id="search-bar" placeholder="Type Something"
+              class=" text-sm text-slate-600 placeholder-slate-400/70 mt-16 w-full border-none py-[0.84rem] px-8 rounded-3xl" />
+            <button type="button"
+              class="bg-red-400 py-[0.75rem] px-5 rounded-3xl absolute bottom-0 -right-8 font-semibold hover:bg-blue-500">
+              SEARCH NOW
+            </button>
+          </div>
+        </div>
+        <div class="banner-image basis-[33%] relative">
+          <img src="./images/banner-image.jpg" alt="assassin's creed image" class="rounded-3xl" />
+          <div
+            class="discount bg-red-400 rounded-full text-slate-100 text-3xl font-extrabold flex w-24 h-24 justify-center items-center absolute -bottom-6 -left-6">
+            <span>-40%</span>
+          </div>
+          <div
+            class="discount bg-blue-500 rounded-3xl text-slate-100 text-xl font-extrabold flex px-3 py-2 justify-center items-center absolute top-4 right-4">
+            <span>$22</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="banner-part3 flex flex-row justify-between gap-x-6 absolute -bottom-[27rem] left-[5.5rem] mb-10">
+      <a href="#" class="storage-link">
+        <div
+          class="storage flex flex-col gap-y-5 justify-center items-center h-[13rem] w-[16rem] bg-slate-50 rounded-3xl shadow-2xl">
+          <div class="cloud-icon flex justify-center items-center bg-blue-500 px-5 py-5 rounded-full hover:bg-red-400">
+            <img src="./images/featured-01.png" alt="cloud storage icon" />
+          </div>
+          <h1 class="text-xl font-extrabold">FREE STORAGE</h1>
+        </div>
+      </a>
+      <a href="#" class="user-link">
+        <div
+          class="user flex flex-col gap-y-5 justify-center items-center h-[13rem] w-[16rem] bg-slate-50 rounded-3xl shadow-2xl">
+          <div class="user-icon flex justify-center items-center bg-blue-500 px-5 py-5 rounded-full hover:bg-red-400">
+            <img src="./images/featured-02.png" alt="user icon" />
+          </div>
+          <h1 class="text-xl font-extrabold">USER MORE</h1>
+        </div>
+      </a>
+      <a href="#" class="reply">
+        <div
+          class="reply flex flex-col gap-y-5 justify-center items-center h-[13rem] w-[16rem] bg-slate-50 rounded-3xl shadow-2xl">
+          <div class="reply-icon flex justify-center items-center bg-blue-500 px-5 py-5 rounded-full hover:bg-red-400">
+            <img src="./images/featured-03.png" alt="reply icon" />
+          </div>
+          <h1 class="text-xl font-extrabold">REPLY READY</h1>
+        </div>
+      </a>
+      <a href="#" class="layout">
+        <div
+          class="layout flex flex-col gap-y-5 justify-center items-center h-[13rem] w-[16rem] bg-slate-50 rounded-3xl shadow-2xl">
+          <div class="layout-icon flex justify-center items-center bg-blue-500 px-5 py-5 rounded-full hover:bg-red-400">
+            <img src="./images/featured-04.png" alt="layout icon" />
+          </div>
+          <h1 class="text-xl font-extrabold">EASY LAYOUT</h1>
+        </div>
+      </a>
+    </div>
+    <div class="trending-games px-20 mt-[17rem]">
+      <h3 class="text-red-400 font-extrabold">TRENDING</h3>
+      <div class="trending mt-5 flex justify-between">
+        <h1 class="text-4xl font-extrabold inline-block">Trending Games</h1>
+        <button type="button"
+          class="bg-red-400 mr-[0.45rem] px-6 py-4 text-sm text-slate-100 font-bold rounded-full hover:bg-blue-500">
+          VIEW ALL
+        </button>
+      </div>
+      <div class="games-trending flex justify-between items-baseline">
+        <div class="game1 relative flex flex-col gap-y-2 h-[19rem] w-[16rem] bg-slate-100 rounded-3xl">
+          <a href="#">
+            <img src="./images/trending-01.jpg" alt="trending game" class="w-full rounded-3xl" />
+          </a>
+          <div
+            class="price absolute top-[20px] right-[20px] bg-blue-500 text-slate-50 flex flex-col justify-center items-center rounded-xl">
+            <h6><s>$28</s></h6>
+            <h1 class="text-lg font-bold">$20</h1>
+          </div>
+          <div class="down-content pt-8 w-5/6 mx-auto flex flex-row gap-x-8 justify-between items-center">
+            <div class="name w-[50%]">
+              <span class="text-slate-500 text-sm">Action</span>
+              <h4 class="text-lg font-semibold">Assassin Creed</h4>
+            </div>
+            <a href="#"
+              class="text-white self-end  flex justify-center items-center bg-red-400 w-[2.5rem] h-[2.5rem] rounded-full p-2 hover:bg-blue-500">
+              <i class="fa fa-shopping-bag fa-base"></i>
+            </a>
+          </div>
+        </div>
+        <!-- <div class="games-trending mt-16">
+          <div class="game1 relative h-[20.2rem] w-[16rem] bg-slate-100 rounded-3xl">
+            <a href="#">
+              <img src="./images/trending-02.jpg" alt="trending game" class="w-full rounded-3xl" />
+            </a>
+            <div
+              class="price absolute top-4 left-56 bg-blue-500 text-slate-50 flex flex-col justify-center items-center w-[4.3rem] h-10 rounded-xl">
+              <h1 class="text-xl font-bold">$44</h1>
+            </div>
+            <div class="game-name mt-6 p-6">
+              <div class="name w-1/2 h-1/2 absolute left-5 top-[15.5rem]">
+                <span class="text-slate-500 inline-block">Action</span>
+                <h4 class="text-lg font-bold">Assassin creed</h4>
+              </div>
+
+              <a href="#"
+                class="text-white flex justify-center items-center bg-red-400 w-[2.5rem] h-[2.5rem] rounded-full p-2 absolute right-6 bottom-6 hover:bg-blue-500">
+                <i class="fa fa-shopping-bag fa-base"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="games-trending mt-16">
+          <div class="game1 relative h-[20.2rem] w-[19.15rem] bg-slate-100 rounded-3xl">
+            <a href="#">
+              <img src="./images/trending-03.jpg" alt="trending game" class="w-full rounded-3xl" />
+            </a>
+            <div
+              class="price absolute top-4 left-56 bg-blue-500 text-slate-50 flex flex-col justify-center items-center w-16 h-16 rounded-xl">
+              <h2><s>$64</s></h2>
+              <h1 class="text-xl font-bold">$44</h1>
+            </div>
+            <div class="game-name mt-6 p-6">
+              <div class="name w-1/2 h-1/2 absolute left-5 top-[15.5rem]">
+                <span class="text-slate-500 inline-block">Action</span>
+                <h4 class="text-lg font-bold">Assassin creed</h4>
+              </div>
+
+              <a href="#"
+                class="text-white flex justify-center items-center bg-red-400 w-[2.5rem] h-[2.5rem] rounded-full p-2 absolute right-6 bottom-6 hover:bg-blue-500">
+                <i class="fa fa-shopping-bag fa-base"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="games-trending mt-16">
+          <div class="game1 relative h-[20.2rem] w-[19.15rem] bg-slate-100 rounded-3xl">
+            <a href="#">
+              <img src="./images/trending-04.jpg" alt="trending game" class="w-full rounded-3xl" />
+            </a>
+            <div
+              class="price absolute top-4 left-56 bg-blue-500 text-slate-50 flex flex-col justify-center items-center w-[4.3rem] h-10 rounded-xl">
+              <h1 class="text-xl font-bold">$32</h1>
+            </div>
+            <div class="game-name mt-6 p-6">
+              <div class="name w-1/2 h-1/2 absolute left-5 top-[15.5rem]">
+                <span class="text-slate-500 inline-block">Action</span>
+                <h4 class="text-lg font-bold">Assassin creed</h4>
+              </div>
+
+              <a href="#"
+                class="text-white flex justify-center items-center bg-red-400 w-[2.5rem] h-[2.5rem] rounded-full p-2 absolute right-6 bottom-6 hover:bg-blue-500">
+                <i class="fa fa-shopping-bag fa-base"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <div class="most-played h-[43rem] w-[100rem] bg-slate-200/35 mt-[30rem] rounded-t-[10rem] rounded-b-[10rem]">
+      <div class="main-content w-4/5 mx-auto ml-[11rem] pt-20">
+        <h3 class="text-red-400 font-extrabold">TOP GAMES</h3>
+        <div class="trending mt-4 flex justify-between">
+          <h1 class="text-4xl font-extrabold inline-block">Most Played</h1>
+          <button type="button"
+            class="bg-red-400 px-6 py-4 text-sm text-slate-100 font-bold rounded-full hover:bg-blue-500">
+            VIEW ALL
+          </button>
+        </div>
+        <div class="most-played-games flex justify-between mt-16">
+          <a href="#1" id="1">
+            <div class="game1 w-[12.2rem] h-[19rem] bg-white rounded-3xl shadow-md relative">
+              <img src="./images/top-game-01.jpg" alt="top game" class="w-full rounded-3xl" />
+              <div class="down-content w-3/4 mx-auto text-center mt-5">
+                <span class="category text-slate-400">Adventure</span>
+                <h4 class="text-lg font-bold">Assassin Creed</h4>
+              </div>
+              <button type="button"
+                class="bg-red-400 py-2 px-4 text-slate-50 font-bold rounded-3xl absolute right-10 -bottom-[1.2rem] hover:bg-blue-500">
+                EXPLORE
+              </button>
+            </div>
+          </a>
+          <a href="#" id="2">
+            <div class="game1 w-[12.2rem] h-[19rem] bg-white rounded-3xl shadow-md relative">
+              <img src="./images/top-game-02.jpg" alt="top game" class="w-full rounded-3xl" />
+              <div class="down-content w-3/4 mx-auto text-center mt-5">
+                <span class="category text-slate-400">Adventure</span>
+                <h4 class="text-lg font-bold">Assassin Creed</h4>
+              </div>
+              <button type="button"
+                class="bg-red-400 py-2 px-4 text-slate-50 font-bold rounded-3xl absolute right-10 -bottom-[1.2rem] hover:bg-blue-500">
+                EXPLORE
+              </button>
+            </div>
+          </a>
+          <a href="#" id="3">
+            <div class="game1 w-[12.2rem] h-[19rem] bg-white rounded-3xl shadow-md relative">
+              <img src="./images/top-game-03.jpg" alt="top game" class="w-full rounded-3xl" />
+              <div class="down-content w-3/4 mx-auto text-center mt-5">
+                <span class="category text-slate-400">Adventure</span>
+                <h4 class="text-lg font-bold">Assassin Creed</h4>
+              </div>
+              <button type="button"
+                class="bg-red-400 py-2 px-4 text-slate-50 font-bold rounded-3xl absolute right-10 -bottom-[1.2rem] hover:bg-blue-500">
+                EXPLORE
+              </button>
+            </div>
+          </a>
+          <a href="#" id="4">
+            <div class="game1 w-[12.2rem] h-[19rem] bg-white rounded-3xl shadow-md relative">
+              <img src="./images/top-game-04.jpg" alt="top game" class="w-full rounded-3xl" />
+              <div class="down-content w-3/4 mx-auto text-center mt-5">
+                <span class="category text-slate-400">Adventure</span>
+                <h4 class="text-lg font-bold">Assassin Creed</h4>
+              </div>
+              <button type="button"
+                class="bg-red-400 py-2 px-4 text-slate-50 font-bold rounded-3xl absolute right-10 -bottom-[1.2rem] hover:bg-blue-500">
+                EXPLORE
+              </button>
+            </div>
+          </a>
+          <a href="#" id="5">
+            <div class="game1 w-[12.2rem] h-[19rem] bg-white rounded-3xl shadow-md relative">
+              <img src="./images/top-game-05.jpg" alt="top game" class="w-full rounded-3xl" />
+              <div class="down-content w-3/4 mx-auto text-center mt-5">
+                <span class="category text-slate-400">Adventure</span>
+                <h4 class="text-lg font-bold">Assassin Creed</h4>
+              </div>
+              <button type="button"
+                class="bg-red-400 py-2 px-4 text-slate-50 font-bold rounded-3xl absolute right-10 -bottom-[1.2rem] hover:bg-blue-500">
+                EXPLORE
+              </button>
+            </div>
+          </a>
+          <a href="#" id="6">
+            <div class="game1 w-[12.2rem] h-[19rem] bg-white rounded-3xl shadow-md relative">
+              <img src="./images/top-game-06.jpg" alt="top game" class="w-full rounded-3xl" />
+              <div class="down-content w-3/4 mx-auto text-center mt-5">
+                <span class="category text-slate-400">Adventure</span>
+                <h4 class="text-lg font-bold">Assassin Creed</h4>
+              </div>
+              <button type="button"
+                class="bg-red-400 py-2 px-4 text-slate-50 font-bold rounded-3xl absolute right-10 -bottom-[1.2rem] hover:bg-blue-500">
+                EXPLORE
+              </button>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="categories-section w-[100rem] mt-32">
+      <div class="game-categories w-[83%] mx-auto pl-[2.7rem]">
+        <div class="categories-top text-center">
+          <h3 class="text-red-400 font-extrabold uppercase">Categories</h3>
+          <h1 class="text-4xl mt-4 font-extrabold inline-block">
+            Top Categories
+          </h1>
+        </div>
+        <div class="categories flex gap-x-6 justify-between">
+          <div class="category1 mt-20 flex flex-col justify-between w-60 h-[18.1rem] bg-blue-500 rounded-3xl">
+            <h4 class="text-xl text-center text-slate-50 font-semibold mt-5">
+              Action
+            </h4>
+            <a href="#" id="1">
+              <img src="./images/categories-01.jpg" alt="game category" class="w-full h-56 rounded-3xl" />
+            </a>
+          </div>
+          <div class="category2 mt-20 flex flex-col justify-between w-60 h-[18.1rem] bg-blue-500 rounded-3xl">
+            <h4 class="text-xl text-center text-slate-50 font-semibold mt-5">
+              Action
+            </h4>
+            <a href="#" id="2">
+              <img src="./images/top-game-01.jpg" alt="game category" class="w-full h-56 rounded-3xl" />
+            </a>
+          </div>
+          <div class="category3 mt-20 flex flex-col justify-between w-60 h-[18.1rem] bg-blue-500 rounded-3xl">
+            <h4 class="text-xl text-center text-slate-50 font-semibold mt-5">
+              Action
+            </h4>
+            <a href="#" id="3">
+              <img src="./images/categories-03.jpg" alt="game category" class="w-full h-56 rounded-3xl" />
+            </a>
+          </div>
+          <div class="category4 mt-20 flex flex-col justify-between w-60 h-[18.1rem] bg-blue-500 rounded-3xl">
+            <h4 class="text-xl text-center text-slate-50 font-semibold mt-5">
+              Action
+            </h4>
+            <a href="#" id="4">
+              <img src="./images/categories-04.jpg" alt="game category" class="w-full h-56 rounded-3xl" />
+            </a>
+          </div>
+          <div class="category5 mt-20 flex flex-col justify-between w-60 h-[18.1rem] bg-blue-500 rounded-3xl">
+            <h4 class="text-xl text-center text-slate-50 font-semibold mt-5">
+              Action
+            </h4>
+            <a href="#" id="5">
+              <img src="./images/categories-05.jpg" alt="game category" class="w-full h-56 rounded-3xl" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cta mt-[7.5rem] relative">
+      <div class="main w-[76%] mx-auto h-[20rem]">
+        <div class="game-image w-[45%] mx-auto">
+          <img src="./images/cta-bg.jpg" alt="image of a game" class="w-full rounded-3xl" />
+        </div>
+        <div class="order w-[29rem] h-[32.5rem] py-10 px-10 bg-slate-200 rounded-3xl relative bottom-[26.5rem] left-10">
+          <div class="main-order w-4/5 mt-[2.5rem] mx-auto flex flex-col justify-between gap-y-5">
+            <div class="top-content">
+              <h6 class="text-red-400 font-extrabold uppercase">Our shop</h6>
+              <h2 class="text-[2rem] leading-snug text-left mt-4 font-extrabold">
+                Go Pre-Order Buy & Get Best
+                <span class="text-blue-500">Prices</span> For You!
+              </h2>
+            </div>
+            <p class="information mt-4 text-slate-500 font-bold">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+            <button type="button"
+              class="bg-red-400 w-[8rem] mt-6 px-6 py-4 text-xs text-slate-100 font-bold rounded-full hover:bg-blue-500">
+              SHOP NOW
+            </button>
+          </div>
+        </div>
+        <div
+          class="newsletter w-[29rem] h-[26rem] py-10 px-4 bg-slate-200 rounded-3xl relative bottom-[52.5rem] left-[45rem]">
+          <div class="main-order w-5/6 mt-[1.3rem] mx-auto flex flex-col justify-between gap-y-5">
+            <div class="top-content">
+              <h6 class="text-red-400 font-extrabold uppercase">newsletter</h6>
+              <h2 class="text-[2rem] leading-snug text-left mt-4 font-extrabold">
+                Get Up To $100 Off Just Buy
+                <span class="text-blue-500">Subscribe</span> Newletter!
+              </h2>
+            </div>
+            <div class="search-bar flex items-baseline gap-y-30 relative w-[21rem] mt-2">
+              <input type="email" name="email" id="email-address" placeholder="Your email"
+                class="mt-5 w-[200rem] h-12 px-5 rounded-3xl text-sm" />
+              <button type="button"
+                class="bg-red-400 text-sm text-nowrap text-slate-50 h-12 px-5 rounded-3xl absolute left-1/2 top-5 ml-4 font-bold hover:bg-blue-500">
+                SUBSCRIBE NOW
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- <div
+      class="banner bg-[url('./images/banner-bg.jpg')] w-full rounded-b-[10rem]"
+    >
+      <div
+        class="navigation py-10 w-4/5 mx-auto flex justify-between items-center"
+      >
+        <div class="logo">
+          <img src="./images/logo.png" alt="website logo" />
+        </div>
+        <nav>
+          <ul class="flex gap-x-6 items-baseline text-base text-slate-200">
+            <a href="#" class="bg-blue-500 py-2 px-4 h-15 rounded-3xl">
+              <li>Home</li>
+            </a>
+            <a
+              href="#"
+              class="hover:bg-blue-400/20 bg-transparent py-2 px-4 h-15 rounded-3xl"
+            >
+              <li>Our Shop</li>
+            </a>
+            <a
+              href="#"
+              class="hover:bg-blue-400/20 bg-transparent py-2 px-4 h-15 rounded-3xl"
+            >
+              <li>Product details</li>
+            </a>
+            <a
+              href="#"
+              class="hover:bg-blue-400/20 bg-transparent py-2 px-4 h-15 rounded-3xl"
+            >
+              <li>Contact Us</li>
+            </a>
+            <a href="#">
+              <button
+                type="button"
+                class="bg-red-400 px-5 py-2 rounded-3xl font-semibold"
+              >
+                SIGN IN
+              </button>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <div class="banner-part2 w-4/5 mx-auto flex justify-between mt-20">
+        <div class="welcome text-slate-100 flex flex-col my-20 w-1/2">
+          <h3 class="text-xl font-semibold mb-7">WELCOME TO LUGX</h3>
+          <h1 class="text-5xl font-extrabold">BEST GAMING SITE EVER!</h1>
+          <div class="dec-caption w-2/3 mx-auto mb-14 pl-5">
+            <img src="./images/caption-dec.png" alt="caption dec image" />
+          </div>
+          <p class="text-left text-base">
+            LUGX Gaming is free Bootstrap 5 HTML CSS website template for your
+            gaming websites. You can download and use this layout for commercial
+            purposes. Please tell your friends about TemplateMo.
+          </p>
+          <div class="search-bar flex items-baseline relative">
+            <input
+              type="text"
+              name="game"
+              id="search-bar"
+              placeholder="Type something"
+              class="mt-16 w-3/4 h-12 px-5 rounded-3xl"
+            />
+            <button
+              type="button"
+              class="bg-red-400 h-12 px-5 rounded-3xl absolute left-1/2 top-16 ml-5 font-bold hover:bg-blue-500"
+            >
+              SEARCH NOW
+            </button>
+          </div>
+        </div>
+        <div class="banner-image relative">
+          <img
+            src="./images/banner-image.jpg"
+            alt="assassin's creed image"
+            class="rounded-3xl"
+          />
+          <div
+            class="discount bg-red-400 rounded-full text-slate-100 text-3xl font-extrabold flex w-24 h-24 justify-center items-center absolute -bottom-6 -left-6"
+          >
+            <span>-40%</span>
+          </div>
+          <div
+            class="discount bg-blue-500 rounded-3xl text-slate-100 text-xl font-extrabold flex px-3 py-2 justify-center items-center absolute top-4 right-4"
+          >
+            <span>$22</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="banner-part3 w-4/5 mx-auto box-border flex flex-row justify-between gap-x-5 absolute left-[10.8rem] -bottom-[22rem] mb-10"
+    >
+      <a href="#" class="storage-link">
+        <div
+          class="storage flex flex-col gap-y-5 justify-center items-center h-[13rem] w-[19rem] bg-slate-50 rounded-3xl shadow-2xl"
+        >
+          <div
+            class="cloud-icon flex justify-center items-center bg-blue-500 w-24 h-24 rounded-full hover:bg-red-400"
+          >
+            <img src="./images/featured-01.png" alt="cloud storage icon" />
+          </div>
+          <h1 class="text-xl font-extrabold">FREE STORAGE</h1>
+        </div>
+      </a>
+      <a href="#" class="user-link">
+        <div
+          class="user flex flex-col gap-y-5 justify-center items-center h-[13rem] w-[19rem] bg-slate-50 rounded-3xl shadow-2xl"
+        >
+          <div
+            class="user-icon flex justify-center items-center bg-blue-500 w-24 h-24 rounded-full hover:bg-red-400"
+          >
+            <img src="./images/featured-02.png" alt="user icon" />
+          </div>
+          <h1 class="text-xl font-extrabold">USER MORE</h1>
+        </div>
+      </a>
+      <a href="#" class="reply">
+        <div
+          class="reply flex flex-col gap-y-5 justify-center items-center h-[13rem] w-[19rem] bg-slate-50 rounded-3xl shadow-2xl"
+        >
+          <div
+            class="reply-icon flex justify-center items-center bg-blue-500 w-24 h-24 rounded-full hover:bg-red-400"
+          >
+            <img src="./images/featured-03.png" alt="reply icon" />
+          </div>
+          <h1 class="text-xl font-extrabold">REPLY READY</h1>
+        </div>
+      </a>
+      <a href="#" class="layout">
+        <div
+          class="layout flex flex-col gap-y-5 justify-center items-center h-[13rem] w-[19rem] bg-slate-50 rounded-3xl shadow-2xl"
+        >
+          <div
+            class="layout-icon flex justify-center items-center bg-blue-500 w-24 h-24 rounded-full hover:bg-red-400"
+          >
+            <img src="./images/featured-04.png" alt="layout icon" />
+          </div>
+          <h1 class="text-xl font-extrabold">EASY LAYOUT</h1>
+        </div>
+      </a>
+    </div>
+    <div class="trending-games w-5/6 mx-auto h-[10rem] mt-[17rem] pl-10">
+      <h3 class="text-red-400 font-extrabold">TRENDING</h3>
+      <div class="trending mt-5 flex justify-between">
+        <h1 class="text-4xl font-extrabold inline-block">Trending Games</h1>
+        <button
+          type="button"
+          class="bg-red-400 mr-[0.45rem] px-6 py-4 text-sm text-slate-100 font-bold rounded-full hover:bg-blue-500"
+        >
+          VIEW ALL
+        </button>
+      </div>
+      <div class="games-trending mt-3 flex justify-between items-baseline">
+        <div
+          class="game1 relative h-[20.2rem] w-[19.15rem] bg-slate-100 rounded-3xl"
+        >
+          <a href="#">
+            <img
+              src="./images/trending-01.jpg"
+              alt="trending game"
+              class="w-full rounded-3xl"
+            />
+          </a>
+          <div
+            class="price absolute top-4 left-56 bg-blue-500 text-slate-50 flex flex-col justify-center items-center w-16 h-16 rounded-xl"
+          >
+            <h2><s>$28</s></h2>
+            <h1 class="text-xl font-bold">$20</h1>
+          </div>
+          <div class="game-name mt-6 p-6">
+            <div class="name w-1/2 h-1/2 absolute left-5 top-[15.5rem]">
+              <span class="text-slate-500 inline-block">Action</span>
+              <h4 class="text-lg font-bold">Assassin creed</h4>
+            </div>
+
+            <a
+              href="#"
+              class="text-white flex justify-center items-center bg-red-400 w-[2.5rem] h-[2.5rem] rounded-full p-2 absolute right-6 bottom-6 hover:bg-blue-500"
+            >
+              <i class="fa fa-shopping-bag fa-base"></i>
+            </a>
+          </div>
+        </div>
+        <div class="games-trending mt-16">
+          <div
+            class="game1 relative h-[20.2rem] w-[19.15rem] bg-slate-100 rounded-3xl"
+          >
+            <a href="#">
+              <img
+                src="./images/trending-02.jpg"
+                alt="trending game"
+                class="w-full rounded-3xl"
+              />
+            </a>
+            <div
+              class="price absolute top-4 left-56 bg-blue-500 text-slate-50 flex flex-col justify-center items-center w-[4.3rem] h-10 rounded-xl"
+            >
+              <h1 class="text-xl font-bold">$44</h1>
+            </div>
+            <div class="game-name mt-6 p-6">
+              <div class="name w-1/2 h-1/2 absolute left-5 top-[15.5rem]">
+                <span class="text-slate-500 inline-block">Action</span>
+                <h4 class="text-lg font-bold">Assassin creed</h4>
+              </div>
+
+              <a
+                href="#"
+                class="text-white flex justify-center items-center bg-red-400 w-[2.5rem] h-[2.5rem] rounded-full p-2 absolute right-6 bottom-6 hover:bg-blue-500"
+              >
+                <i class="fa fa-shopping-bag fa-base"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="games-trending mt-16">
+          <div
+            class="game1 relative h-[20.2rem] w-[19.15rem] bg-slate-100 rounded-3xl"
+          >
+            <a href="#">
+              <img
+                src="./images/trending-03.jpg"
+                alt="trending game"
+                class="w-full rounded-3xl"
+              />
+            </a>
+            <div
+              class="price absolute top-4 left-56 bg-blue-500 text-slate-50 flex flex-col justify-center items-center w-16 h-16 rounded-xl"
+            >
+              <h2><s>$64</s></h2>
+              <h1 class="text-xl font-bold">$44</h1>
+            </div>
+            <div class="game-name mt-6 p-6">
+              <div class="name w-1/2 h-1/2 absolute left-5 top-[15.5rem]">
+                <span class="text-slate-500 inline-block">Action</span>
+                <h4 class="text-lg font-bold">Assassin creed</h4>
+              </div>
+
+              <a
+                href="#"
+                class="text-white flex justify-center items-center bg-red-400 w-[2.5rem] h-[2.5rem] rounded-full p-2 absolute right-6 bottom-6 hover:bg-blue-500"
+              >
+                <i class="fa fa-shopping-bag fa-base"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="games-trending mt-16">
+          <div
+            class="game1 relative h-[20.2rem] w-[19.15rem] bg-slate-100 rounded-3xl"
+          >
+            <a href="#">
+              <img
+                src="./images/trending-04.jpg"
+                alt="trending game"
+                class="w-full rounded-3xl"
+              />
+            </a>
+            <div
+              class="price absolute top-4 left-56 bg-blue-500 text-slate-50 flex flex-col justify-center items-center w-[4.3rem] h-10 rounded-xl"
+            >
+              <h1 class="text-xl font-bold">$32</h1>
+            </div>
+            <div class="game-name mt-6 p-6">
+              <div class="name w-1/2 h-1/2 absolute left-5 top-[15.5rem]">
+                <span class="text-slate-500 inline-block">Action</span>
+                <h4 class="text-lg font-bold">Assassin creed</h4>
+              </div>
+
+              <a
+                href="#"
+                class="text-white flex justify-center items-center bg-red-400 w-[2.5rem] h-[2.5rem] rounded-full p-2 absolute right-6 bottom-6 hover:bg-blue-500"
+              >
+                <i class="fa fa-shopping-bag fa-base"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="most-played h-[43rem] w-[100rem] bg-slate-200/35 mt-[30rem] rounded-t-[10rem] rounded-b-[10rem]"
+    >
+      <div class="main-content w-4/5 mx-auto ml-[11rem] pt-20">
+        <h3 class="text-red-400 font-extrabold">TOP GAMES</h3>
+        <div class="trending mt-4 flex justify-between">
+          <h1 class="text-4xl font-extrabold inline-block">Most Played</h1>
+          <button
+            type="button"
+            class="bg-red-400 px-6 py-4 text-sm text-slate-100 font-bold rounded-full hover:bg-blue-500"
+          >
+            VIEW ALL
+          </button>
+        </div>
+        <div class="most-played-games flex justify-between mt-16">
+          <a href="#1" id="1">
+            <div
+              class="game1 w-[12.2rem] h-[19rem] bg-white rounded-3xl shadow-md relative"
+            >
+              <img
+                src="./images/top-game-01.jpg"
+                alt="top game"
+                class="w-full rounded-3xl"
+              />
+              <div class="down-content w-3/4 mx-auto text-center mt-5">
+                <span class="category text-slate-400">Adventure</span>
+                <h4 class="text-lg font-bold">Assassin Creed</h4>
+              </div>
+              <button
+                type="button"
+                class="bg-red-400 py-2 px-4 text-slate-50 font-bold rounded-3xl absolute right-10 -bottom-[1.2rem] hover:bg-blue-500"
+              >
+                EXPLORE
+              </button>
+            </div>
+          </a>
+          <a href="#" id="2">
+            <div
+              class="game1 w-[12.2rem] h-[19rem] bg-white rounded-3xl shadow-md relative"
+            >
+              <img
+                src="./images/top-game-02.jpg"
+                alt="top game"
+                class="w-full rounded-3xl"
+              />
+              <div class="down-content w-3/4 mx-auto text-center mt-5">
+                <span class="category text-slate-400">Adventure</span>
+                <h4 class="text-lg font-bold">Assassin Creed</h4>
+              </div>
+              <button
+                type="button"
+                class="bg-red-400 py-2 px-4 text-slate-50 font-bold rounded-3xl absolute right-10 -bottom-[1.2rem] hover:bg-blue-500"
+              >
+                EXPLORE
+              </button>
+            </div>
+          </a>
+          <a href="#" id="3">
+            <div
+              class="game1 w-[12.2rem] h-[19rem] bg-white rounded-3xl shadow-md relative"
+            >
+              <img
+                src="./images/top-game-03.jpg"
+                alt="top game"
+                class="w-full rounded-3xl"
+              />
+              <div class="down-content w-3/4 mx-auto text-center mt-5">
+                <span class="category text-slate-400">Adventure</span>
+                <h4 class="text-lg font-bold">Assassin Creed</h4>
+              </div>
+              <button
+                type="button"
+                class="bg-red-400 py-2 px-4 text-slate-50 font-bold rounded-3xl absolute right-10 -bottom-[1.2rem] hover:bg-blue-500"
+              >
+                EXPLORE
+              </button>
+            </div>
+          </a>
+          <a href="#" id="4">
+            <div
+              class="game1 w-[12.2rem] h-[19rem] bg-white rounded-3xl shadow-md relative"
+            >
+              <img
+                src="./images/top-game-04.jpg"
+                alt="top game"
+                class="w-full rounded-3xl"
+              />
+              <div class="down-content w-3/4 mx-auto text-center mt-5">
+                <span class="category text-slate-400">Adventure</span>
+                <h4 class="text-lg font-bold">Assassin Creed</h4>
+              </div>
+              <button
+                type="button"
+                class="bg-red-400 py-2 px-4 text-slate-50 font-bold rounded-3xl absolute right-10 -bottom-[1.2rem] hover:bg-blue-500"
+              >
+                EXPLORE
+              </button>
+            </div>
+          </a>
+          <a href="#" id="5">
+            <div
+              class="game1 w-[12.2rem] h-[19rem] bg-white rounded-3xl shadow-md relative"
+            >
+              <img
+                src="./images/top-game-05.jpg"
+                alt="top game"
+                class="w-full rounded-3xl"
+              />
+              <div class="down-content w-3/4 mx-auto text-center mt-5">
+                <span class="category text-slate-400">Adventure</span>
+                <h4 class="text-lg font-bold">Assassin Creed</h4>
+              </div>
+              <button
+                type="button"
+                class="bg-red-400 py-2 px-4 text-slate-50 font-bold rounded-3xl absolute right-10 -bottom-[1.2rem] hover:bg-blue-500"
+              >
+                EXPLORE
+              </button>
+            </div>
+          </a>
+          <a href="#" id="6">
+            <div
+              class="game1 w-[12.2rem] h-[19rem] bg-white rounded-3xl shadow-md relative"
+            >
+              <img
+                src="./images/top-game-06.jpg"
+                alt="top game"
+                class="w-full rounded-3xl"
+              />
+              <div class="down-content w-3/4 mx-auto text-center mt-5">
+                <span class="category text-slate-400">Adventure</span>
+                <h4 class="text-lg font-bold">Assassin Creed</h4>
+              </div>
+              <button
+                type="button"
+                class="bg-red-400 py-2 px-4 text-slate-50 font-bold rounded-3xl absolute right-10 -bottom-[1.2rem] hover:bg-blue-500"
+              >
+                EXPLORE
+              </button>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="categories-section w-[100rem] mt-32">
+      <div class="game-categories w-[83%] mx-auto pl-[2.7rem]">
+        <div class="categories-top text-center">
+          <h3 class="text-red-400 font-extrabold uppercase">Categories</h3>
+          <h1 class="text-4xl mt-4 font-extrabold inline-block">
+            Top Categories
+          </h1>
+        </div>
+        <div class="categories flex gap-x-6 justify-between">
+          <div
+            class="category1 mt-20 flex flex-col justify-between w-60 h-[18.1rem] bg-blue-500 rounded-3xl"
+          >
+            <h4 class="text-xl text-center text-slate-50 font-semibold mt-5">
+              Action
+            </h4>
+            <a href="#" id="1">
+              <img
+                src="./images/categories-01.jpg"
+                alt="game category"
+                class="w-full h-56 rounded-3xl"
+              />
+            </a>
+          </div>
+          <div
+            class="category2 mt-20 flex flex-col justify-between w-60 h-[18.1rem] bg-blue-500 rounded-3xl"
+          >
+            <h4 class="text-xl text-center text-slate-50 font-semibold mt-5">
+              Action
+            </h4>
+            <a href="#" id="2">
+              <img
+                src="./images/top-game-01.jpg"
+                alt="game category"
+                class="w-full h-56 rounded-3xl"
+              />
+            </a>
+          </div>
+          <div
+            class="category3 mt-20 flex flex-col justify-between w-60 h-[18.1rem] bg-blue-500 rounded-3xl"
+          >
+            <h4 class="text-xl text-center text-slate-50 font-semibold mt-5">
+              Action
+            </h4>
+            <a href="#" id="3">
+              <img
+                src="./images/categories-03.jpg"
+                alt="game category"
+                class="w-full h-56 rounded-3xl"
+              />
+            </a>
+          </div>
+          <div
+            class="category4 mt-20 flex flex-col justify-between w-60 h-[18.1rem] bg-blue-500 rounded-3xl"
+          >
+            <h4 class="text-xl text-center text-slate-50 font-semibold mt-5">
+              Action
+            </h4>
+            <a href="#" id="4">
+              <img
+                src="./images/categories-04.jpg"
+                alt="game category"
+                class="w-full h-56 rounded-3xl"
+              />
+            </a>
+          </div>
+          <div
+            class="category5 mt-20 flex flex-col justify-between w-60 h-[18.1rem] bg-blue-500 rounded-3xl"
+          >
+            <h4 class="text-xl text-center text-slate-50 font-semibold mt-5">
+              Action
+            </h4>
+            <a href="#" id="5">
+              <img
+                src="./images/categories-05.jpg"
+                alt="game category"
+                class="w-full h-56 rounded-3xl"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cta mt-[7.5rem] relative">
+      <div class="main w-[76%] mx-auto h-[20rem]">
+        <div class="game-image w-[45%] mx-auto">
+          <img
+            src="./images/cta-bg.jpg"
+            alt="image of a game"
+            class="w-full rounded-3xl"
+          />
+        </div>
+        <div
+          class="order w-[29rem] h-[32.5rem] py-10 px-10 bg-slate-200 rounded-3xl relative bottom-[26.5rem] left-10"
+        >
+          <div
+            class="main-order w-4/5 mt-[2.5rem] mx-auto flex flex-col justify-between gap-y-5"
+          >
+            <div class="top-content">
+              <h6 class="text-red-400 font-extrabold uppercase">Our shop</h6>
+              <h2
+                class="text-[2rem] leading-snug text-left mt-4 font-extrabold"
+              >
+                Go Pre-Order Buy & Get Best
+                <span class="text-blue-500">Prices</span> For You!
+              </h2>
+            </div>
+            <p class="information mt-4 text-slate-500 font-bold">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+            <button
+              type="button"
+              class="bg-red-400 w-[8rem] mt-6 px-6 py-4 text-xs text-slate-100 font-bold rounded-full hover:bg-blue-500"
+            >
+              SHOP NOW
+            </button>
+          </div>
+        </div>
+        <div
+          class="newsletter w-[29rem] h-[26rem] py-10 px-4 bg-slate-200 rounded-3xl relative bottom-[52.5rem] left-[45rem]"
+        >
+          <div
+            class="main-order w-5/6 mt-[1.3rem] mx-auto flex flex-col justify-between gap-y-5"
+          >
+            <div class="top-content">
+              <h6 class="text-red-400 font-extrabold uppercase">newsletter</h6>
+              <h2
+                class="text-[2rem] leading-snug text-left mt-4 font-extrabold"
+              >
+                Get Up To $100 Off Just Buy
+                <span class="text-blue-500">Subscribe</span> Newletter!
+              </h2>
+            </div>
+            <div
+              class="search-bar flex items-baseline gap-y-30 relative w-[21rem] mt-2"
+            >
+              <input
+                type="email"
+                name="email"
+                id="email-address"
+                placeholder="Your email"
+                class="mt-5 w-[200rem] h-12 px-5 rounded-3xl text-sm"
+              />
+              <button
+                type="button"
+                class="bg-red-400 text-sm text-nowrap text-slate-50 h-12 px-5 rounded-3xl absolute left-1/2 top-5 ml-4 font-bold hover:bg-blue-500"
+              >
+                SUBSCRIBE NOW
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  <footer
+    class="bg-[url('./images/footer-bg.jpg')] w-full h-[9.5rem] mt-[27rem] rounded-t-[10rem] text-center text-slate-50 pt-8">
+    <p class="w-4/5 mx-auto">
+      Copyright &copy; 2048 LUGX Gaming Company. All rights reserved. Design:
+      TemplateMo
+    </p>
+  </footer>
+</body>
+
+</html>
