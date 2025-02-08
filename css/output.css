@@ -2108,8 +2108,20 @@
   .text-\[0\.9rem\] {
     font-size: 0.9rem;
   }
+  .text-\[1\.03rem\] {
+    font-size: 1.03rem;
+  }
+  .text-\[1\.05rem\] {
+    font-size: 1.05rem;
+  }
+  .text-\[1\.0rem\] {
+    font-size: 1.0rem;
+  }
   .text-\[1\.1rem\] {
     font-size: 1.1rem;
+  }
+  .text-\[1rem\] {
+    font-size: 1rem;
   }
   .text-\[2\.35rem\] {
     font-size: 2.35rem;
@@ -2216,6 +2228,9 @@
   }
   .text-\[1\.1re\] {
     color: 1.1re;
+  }
+  .text-\[1\.rem\] {
+    color: 1.rem;
   }
   .text-blue-500 {
     color: var(--color-blue-500);
